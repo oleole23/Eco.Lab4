@@ -1,0 +1,14 @@
+﻿Build started 29.05.2024 15:05:52.
+     1>Project "C:\component c\Eco.Lab3\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Eco.Lab1UnitTest\StaticRelease\Eco.Lab1UnitTest.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\SharedFiles /I..\..\..\HeaderFiles /I..\..\..\UnitTestFiles\HeaderFiles /I"C:\component c\Eco.Framework\Eco.Core1\SharedFiles" /I"C:\component c\Eco.Framework\Eco.InterfaceBus1\SharedFiles" /I"C:\component c\Eco.Framework\Eco.System1\SharedFiles" /I"C:\component c\Eco.Framework\Eco.MemoryManager1\SharedFiles" /I"C:\component c\Eco.Framework\Eco.FileSystemManagement1\SharedFiles" /I"C:\component c\Eco.Framework\Eco.List1\SharedFiles" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D UGUID_UTILITY /D ECO_WINDOWS /D ECO_WIN32 /D ECO_LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Eco.Lab1UnitTest\StaticRelease\\" /Fd"Eco.Lab1UnitTest\StaticRelease\vc100.pdb" /Gz /TC /analyze- /errorReport:prompt ..\..\..\UnitTestFiles\SourceFiles\CEcoLab1Sink.c ..\..\..\UnitTestFiles\SourceFiles\EcoLab1.c
+         CEcoLab1Sink.c
+         EcoLab1.c
+     1>..\..\..\UnitTestFiles\SourceFiles\EcoLab1.c(30): fatal error C1083: Cannot open include file: 'IdEcoCalculatorA.h': No such file or directory
+     1>Done Building Project "C:\component c\Eco.Lab3\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.79
